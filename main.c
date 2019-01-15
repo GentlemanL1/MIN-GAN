@@ -2,7 +2,8 @@
 
 int main()
 {
-
+    char arr[1024];
+    int index = 0;
     printf("敏感字符管理系统\n");
 
     while (1)
@@ -19,6 +20,21 @@ int main()
 
         if (code == 1)
         {
+            char a;
+            printf("请输入要添加的敏感字符\n");
+            scanf("%c",&a);
+            scanf("%c",&a);
+
+            arr[index]=a;
+            index++;
+
+            printf("添加成功，点击回车继续\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
+
+
         }
         if (code == 2)
         {
